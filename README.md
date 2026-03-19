@@ -25,7 +25,16 @@ So I broke down the most common use cases for automation:
 - Basic If/Else Decision Making
 - Scripting and Chaining Together Different Flows
 
-And created a language that does just those things, each written as just one-word commands. Zero overhead, readable like English.
+And created a language that does just those things, each written as just one-word commands. Zero overhead, readable like English. Here's an example:
+
+```flow
+GET "https://example.com" -> PAGE
+IF (PAGE contains "Example"):
+    LLM "Summarize this page: {PAGE}" -> SUMMARY
+    OUTPUT SUMMARY
+ELSE:
+    OUTPUT "No example found"
+```
 
 ## Quickstart
 
