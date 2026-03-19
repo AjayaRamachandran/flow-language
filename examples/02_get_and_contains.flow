@@ -1,0 +1,6 @@
+GET "https://example.com" -> PAGE
+IF (PAGE contains "Example Domain"):
+    OUTPUT "Page includes expected heading"
+ELSE:
+    OUTPUT "Expected heading not found"
+RETURN PAGE

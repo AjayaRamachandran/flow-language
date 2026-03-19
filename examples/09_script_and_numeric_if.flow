@@ -1,0 +1,7 @@
+SCRIPT "08_child_return_number.flow" -> COUNT
+OUTPUT "Value from child: {COUNT}"
+IF (COUNT > 5):
+    OUTPUT "Count is greater than five"
+ELSE:
+    OUTPUT "Count is five or less"
+RETURN COUNT

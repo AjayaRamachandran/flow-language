@@ -1,0 +1,6 @@
+POST "https://httpbin.org/post" BODY "source=flow&topic=post" -> RESPONSE
+IF (RESPONSE contains "source"):
+    OUTPUT "POST echoed the payload"
+ELSE:
+    OUTPUT "POST response did not include expected marker"
+RETURN RESPONSE

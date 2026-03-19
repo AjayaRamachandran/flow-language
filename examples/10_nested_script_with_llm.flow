@@ -1,0 +1,4 @@
+SCRIPT "02_get_and_contains.flow" -> PAGE_CONTENT
+LLM "Provide a one-sentence summary of this content: {PAGE_CONTENT}" -> SHORT_SUMMARY
+OUTPUT SHORT_SUMMARY
+RETURN SHORT_SUMMARY

@@ -1,0 +1,4 @@
+GET "https://example.com" -> PAGE
+LLM "Summarize this web page in three bullet points: {PAGE}" -> SUMMARY
+OUTPUT SUMMARY
+RETURN SUMMARY

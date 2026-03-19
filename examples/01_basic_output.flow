@@ -1,0 +1,3 @@
+OUTPUT "Hello from FLOW"
+OUTPUT "The date placeholder is optional: {TODAY}"
+RETURN "ok"

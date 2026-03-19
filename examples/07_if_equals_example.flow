@@ -1,0 +1,6 @@
+GET "https://example.com" -> PAGE
+IF (PAGE equals "Example Domain"):
+    OUTPUT "Exact match"
+ELSE:
+    OUTPUT "Not an exact match, usually because PAGE is full HTML"
+RETURN PAGE

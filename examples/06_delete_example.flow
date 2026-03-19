@@ -1,0 +1,6 @@
+DELETE "https://httpbin.org/delete" BODY "cleanup=true" -> DELETE_RESULT
+IF (DELETE_RESULT contains "cleanup"):
+    OUTPUT "DELETE carried the body marker"
+ELSE:
+    OUTPUT "DELETE response missing marker"
+RETURN DELETE_RESULT

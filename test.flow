@@ -1,0 +1,6 @@
+GET "https://docs.subconscious.dev/llms.txt" -> RESULT
+IF (RESULT contains "Subconscious"):
+    LLM "Analyze the following text: {RESULT} Which option explains how to cancel a run?" -> RESPONSE
+    OUTPUT RESPONSE
+ELSE:
+    OUTPUT "Fail"

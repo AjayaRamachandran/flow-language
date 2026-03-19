@@ -1,0 +1,6 @@
+UPDATE "https://httpbin.org/put" BODY "status=updated" -> UPDATE_RESULT
+IF (UPDATE_RESULT contains "updated"):
+    OUTPUT "UPDATE request succeeded"
+ELSE:
+    OUTPUT "UPDATE response missing marker"
+RETURN UPDATE_RESULT
