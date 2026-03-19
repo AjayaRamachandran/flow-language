@@ -1,4 +1,5 @@
 <p align="center">
+  <img src="./icon.png" width="128" height="128">
   <h1 align='center'><b>FLOW: Language for AI</b></h1>
   <p style="font-size: 16px;" align='center'><u>F</u>unction, <u>L</u>anguage, & <u>O</u>bject <u>W</u>orkflow notation</p>
 </p>
