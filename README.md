@@ -10,7 +10,7 @@ It is designed for a specific job: **creating safe, reliable, and easy-to-review
 
 **FLOW takes the opposite approach:** one command per line, a small, explicit command set (`GET`, `LLM`, `OUTPUT`, etc.), clear control flow (`IF`, `ELSE`, `RETURN`), and so-easy-it's-dumb composition (`SCRIPT`).
 
-## Core Message
+## The Core Idea
 
 ***AI Automation gets smarter when we abstract away the specifics.***
 
