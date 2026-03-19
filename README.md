@@ -18,7 +18,7 @@ It is designed for a specific job: **creating safe, reliable, and easy-to-review
 
 FLOW applies that same principle to automation. *When most workflows consist of basic REST commands and LLM calls, why are we using entire, general-purpose languages to write them?*
 
-So broke down the most common use cases for automation:
+So I broke down the most common use cases for automation:
 - REST API Fetching and Posting
 - Language Model API Calls
 - Basic If/Else Decision Making
